@@ -1,0 +1,41 @@
+:root {
+  --background-color: #f0f0f0;
+  --primary-color: #a4a652;
+  --secondary-color: #6c757d;
+}
+
+/* Reset CSS */
+
+/* Redefinir a margem e o preenchimento de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Redefinir as fontes para evitar inconsistências */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--background-color);
+}
+
+/* Redefinir as bordas dos elementos */
+img,
+button,
+input,
+select,
+textarea {
+  border: none;
+}
+
+/* Redefinir outros estilos comuns, como listas e formatação de link */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
